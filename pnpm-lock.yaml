@@ -19,8 +19,8 @@ importers:
         specifier: ^7.24.7
         version: 7.24.7
       '@babel/node':
-        specifier: ^7.24.7
-        version: 7.24.7(@babel/core@7.24.7)
+        specifier: ^7.24.8
+        version: 7.24.8(@babel/core@7.24.7)
       '@babel/preset-env':
         specifier: ^7.24.7
         version: 7.24.7(@babel/core@7.24.7)
@@ -168,8 +168,8 @@ packages:
     resolution: {integrity: sha512-EStJpq4OuY8xYfhGVXngigBJRWxftKX9ksiGDnmlY3o7B/V7KIAc9X4oiK87uPJSc/vs5L869bem5fhZa8caZw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/node@7.24.7':
-    resolution: {integrity: sha512-BCYNLxUQjGTgy8bAq12jy+Lt8soGWa/5u3s7U3aTVXxviIp0YVS+/Wm0b4eaitLVvetYrEoAiRF0QOk4WKsHAQ==}
+  '@babel/node@7.24.8':
+    resolution: {integrity: sha512-4JgQZJOVDrMCe2OwP7g4nBEvv0kbTkWYVvkEhFdq8JdEhsy9J5E5ChibbIchTrntKB62lx2I7fVTdM+Se7KVFg==}
     engines: {node: '>=6.9.0'}
     hasBin: true
     peerDependencies:
@@ -1730,7 +1730,7 @@ snapshots:
       js-tokens: 4.0.0
       picocolors: 1.0.1
 
-  '@babel/node@7.24.7(@babel/core@7.24.7)':
+  '@babel/node@7.24.8(@babel/core@7.24.7)':
     dependencies:
       '@babel/core': 7.24.7
       '@babel/register': 7.24.6(@babel/core@7.24.7)
